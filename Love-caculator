@@ -1,0 +1,63 @@
+################### cont string in t alphabet ###################
+# string= input(" enter your name: ")
+# str_l= string.lower()
+# str_count = string.count("t")
+# print(str_count)
+
+
+
+#################### count substring by user ################
+# string= input(" enter your name : ")
+# str_l = string.lower()
+
+# substr = input(" enter your sub str : ")
+# str_l = substr.lower()
+
+# def my_fun():               ############# do you want run without fun skip this line
+#     count =0 
+#     for i in string:
+#         if i==substr :
+#             count +=1
+#         else:
+#             pass    
+#     print(count)
+
+# my_fun()                  ############# do you want run without fun skip this line
+ 
+
+
+
+
+name1 = input(" enter your name :")
+name2 = input(" enter your partner name:")
+
+combine =  name1 + name2
+string = combine.lower()
+
+t = string.count("t")
+r = string.count("r")  
+u = string.count("u")  
+e = string.count("e") 
+
+true = t + r + u + e
+#print(true)
+
+l = string.count("l")
+o = string.count("o")
+v = string.count("v")
+e = string.count("e")
+love = l + o + v + e
+#print(love)
+
+true_love = int(str(true) +str(love))
+print(true_love)
+
+if (true_love < 10) or(true_love >90) :
+    print(f"your score is {true_love} like cock and mentos ")
+
+elif (true_love > 40) and (true_love < 50)  :
+    print(f"your score is{true_love} alright together")   
+
+else:
+    print(f"your score is {true_love}")
+    
